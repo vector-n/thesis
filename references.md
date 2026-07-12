@@ -6,6 +6,13 @@ Status legend: 🟢 fully verified (read in full, citation details confirmed) ·
 
 ---
 
+## API Standards (foundational)
+
+| Filename | Year/Edition | Status | Focus | Key relevance | Cited in |
+|---|---|---|---|---|---|
+| API_2010_13A_SpecificationDrillingFluidsMaterials.pdf | 2010, 18th Ed. (ANSI/API SPEC 13A, identical to ISO 13500:2009) | 🟢 | Specification for Drilling Fluids Materials | The primary specification standard your entire thesis benchmarks against (Table 1 in proposal) | Methodology, Results (pending) |
+| API_2024_13B1_TestingWaterBasedDrillingFluids_6thEdBallotDraft.pdf | 6th Ed., Ballot Draft (not yet finalized — verify current published edition before defense) | 🟢 | Testing Water-based Drilling Fluids | Test procedures (PV, YP, gel strength, API fluid loss) — directly governs your Phase 3 methodology | Methodology |
+
 ## Core deposit
 
 | Filename | Year | Status | Country/Deposit | Key relevance | Cited in |
@@ -46,8 +53,13 @@ Status legend: 🟢 fully verified (read in full, citation details confirmed) ·
 - [ ] Full verified citations for the Egyptian Gabal Hamdal and El-Fayoum studies (currently 🟡/🔴, found via search snippets only)
 - [ ] Magzoub KFUPM M.Sc. thesis — full PDF
 - [ ] Broader RSM-in-drilling-fluids literature beyond the 2 papers currently held
-- [ ] General montmorillonite/smectite mineralogy and rheology textbook or review reference (for Chapter 2 background section)
+- [ ] General montmorillonite/smectite mineralogy and rheology textbook or review reference (for Chapter 2 background section) — e.g. Darley & Gray, or a clay mineralogy review
+- [ ] Sodium activation / cation exchange mechanism papers (general clay chemistry, not just applications)
+- [ ] General RSM/DOE statistics reference (non-drilling-specific, for methodological rigor citation)
 - [ ] Additional Nigeria/Saudi/Egypt comparator studies if available, to strengthen the "genre" argument in Chapter 1 Section 1.3
+- [ ] Economic feasibility / import-substitution framing references (optional, supports Section 8)
+- [x] ~~API 13A specification~~ — obtained 2010 18th Ed.
+- [x] ~~API 13B-1 testing procedures~~ — obtained 6th Ed. ballot draft (verify final edition before defense)
 
 ## How to add a new paper (workflow)
 
