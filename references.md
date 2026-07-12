@@ -25,9 +25,11 @@ Status legend: 🟢 fully verified (read in full, citation details confirmed) ·
 |---|---|---|---|---|---|
 | Khan_2017_PakistaniBentoniteDrillingMud.pdf | 2017 | 🟢 | Pakistan / Jhelum, Jundola | Primary methodological template — raw clay vs. Mill Gel, improved with xanthan/CMC/starch | Chapter 1, proposal |
 | AlHomadhi_2007_SaudiKhulaysBentoniteSPE.pdf | 2007 | 🟡 | Saudi Arabia / Khulays | Closest precedent — Ca-bentonite activated with 5% Na2CO3 + Drispac polymer, ~200% viscosity increase | Chapter 1 |
+| **Magzoub_2018_ThermochemicalUpgradingCaBentonite_JERT.pdf** | **2018** | 🟢 | **Saudi Arabia / Jeddah** | **Near-identical methodology to thesis: multi-stage sedimentation + wet-sieving purification → soda ash Na-activation (optimum 4 wt.% Na2CO3) → novel thermochemical upgrading (70–90°C heating + stirring, up to 24 hr) → full API 13-A rheology/filtration benchmarking against commercial Na-bentonite in two real drilling fluid formulas (8.6 ppg and 11.16 ppg barite-weighted). Upgraded Ca-bentonite matched/outperformed commercial Na-bentonite (YP/PV 1.02–1.24, apparent viscosity 2.5→20 cP, filtration 70→11.8 mL). Excellent template for both purification protocol and thermochemical (not just chemical) activation step — consider whether Alaslaf protocol should add a heating/stirring stage beyond simple soda ash dosing.** | **Chapter 1, Methodology (protocol design)** |
 | Akinwumi_2015_NigeriaAbbiClayAPI.pdf | 2015 | 🟢 | Nigeria / Abbi, Delta State | API 13A/13B benchmarking, partial-deficiency-then-beneficiation outcome pattern | Chapter 1, thesis rating discussion |
 | Nlemedin_2023_IkwoClayOilBasedMud.pdf | 2023 | 🟡 | Nigeria / Ikwo | Comparative bentonite vs. local clay, oil-based mud | Chapter 1 |
-| Magzoub_KFUPM_MScThesis_SaudiBentoniteStabilization.pdf | — | 🔴 | Saudi Arabia / Khulays | Full M.Sc. thesis, close structural template — NOT YET DOWNLOADED, recommended | — |
+| **Ossai_2025_BoxBehnken_DrillingMud_NigeriaLocalMaterials.pdf** | **2025** | 🟢 | **Nigeria / Ovia River, Edo State** | **Methodological twin for DOE approach: 4-factor (clay, corn cob ash, NaOH, cassava starch) Box-Behnken design, 29 runs, quadratic polynomial models for apparent and plastic viscosity via ANOVA/RSM in Design-Expert. High R² (0.97 apparent, 0.96 plastic viscosity), adequate precision >4. Useful worked example of reporting conventions (ANOVA table format, coded regression equations, response surface plots, fit statistics table) to mirror in Chapter 3/4. Also reinforces the "local/economical additive substitution" framing relevant to your Section 8 economic argument.** | **Chapter 1, Methodology (RSM/BBD reporting template)** |
+| Magzoub_KFUPM_MScThesis_SaudiBentoniteStabilization.pdf | — | 🔴 | Saudi Arabia / Khulays | Full M.Sc. thesis, close structural template — NOT YET DOWNLOADED, recommended. **Note: distinct from Magzoub 2018 JERT paper above (same lead author, different/related work) — do not conflate citations.** | — |
 | Egyptian_GabalHamdal_AbuZeneima_Beneficiation.pdf | — | 🔴 | Egypt / Sinai | Counter-example: poor Na-exchange response, low smectite purity. Important for balanced risk framing | Chapter 1 (citation incomplete) |
 | Egyptian_ElFayoum_KomOshim_NanoBentonite.pdf | — | 🔴 | Egypt / El-Fayoum | NaOH + POLYPAC-R activation; non-activated samples unusable as-is | Chapter 1 (citation incomplete) |
 
@@ -36,7 +38,9 @@ Status legend: 🟢 fully verified (read in full, citation details confirmed) ·
 | Filename | Year | Status | Focus | Key relevance | Cited in |
 |---|---|---|---|---|---|
 | Maulani_2024_RSM_BoxBehnken_CMC_AlkalinePolymer.pdf | 2024 | 🟡 | Indonesia | RSM/BBD precedent for multi-factor mud optimization across temperatures | Chapter 1 |
-| Alhajabdalla_2021_RSM_FibrousDispersion_ACSOmega.pdf | 2021 | 🟡 | Qatar/general | RSM/BBD for fibrous dispersion stability in drilling fluids | Chapter 1 |
+| Alhajabdalla_2021_RSM_FibrousDispersion_ACSOmega.pdf | 2021 | 🟢 | Qatar (Qatar University / U. Oklahoma) | Fully verified: 3-factor BBD (polymer conc., fiber conc., temperature) across CMC/PAM/XG base fluids, 15-run design per fiber length, second-order polynomial models, R² 0.91–0.99, desirability-function optimization. Strong template for statistical rigor (P-value significance tables, model validation against held-out conditions, response surface plots) applicable to your Chapter 3 methodology and Chapter 4 results reporting. | Chapter 1, Methodology (statistical design template) |
+| **Satiyawira_2025_RSM_BoxBehnken_DrillingFluidOptimization_SCOG.pdf** | **2025** | 🟢 | **Indonesia (Universitas Trisakti) / general WBM, not bentonite-specific** | **3-factor BBD (CMC, alkaline-polymer additive, xanthan gum) evaluated across 7 responses (viscosity, PV, YP, 10s/10min gel strength, filtrate loss, mud cake thickness) at 3 temperatures (80/150/250°F), separate quadratic model per response per temperature. Full ANOVA (F-values, R², adjusted R²), predicted-vs-actual validation, multi-response desirability optimization via Design-Expert. Best available template for (a) multi-temperature RSM reporting structure and (b) presenting several simultaneous response models cleanly — directly useful if Chapter 3/4 extends beyond single-temperature testing.** | **Methodology (RSM/BBD reporting template, multi-response/multi-temperature design)** |
+| **Asmungi_2021_RSM_BoxBehnken_BentoniteTanninXanthan_WBM.pdf** | **2021 (ICGSCE conf. proceedings)** | 🟢 | **Malaysia (UiTM) / bentonite + natural tannin deflocculant** | **3-factor BBD (bentonite 2–20g, tannin 2–10g as natural deflocculant from *Rhizophora* mangrove bark, xanthan gum 0–2g), responses PV/AV/YP, R² 0.95–0.99, full ANOVA + ramp-block optimization + triplicate validation (predicted vs. experimental within ~5%). Directly relevant to thesis's "local/economical additive" framing — tannin is a natural, locally-sourceable deflocculant alternative to synthetic thinners, worth considering as a discussion point for Chapter 1/8 even if not trialled experimentally. Note: likely has a peer-reviewed journal twin — Ossai et al. 2025 cites "Asmungi et al. 2023, *Key Engineering Materials*, 939, 103–114" under the same title; probably the published version of this same study — worth checking if the 2023 KEM version is preferable to cite over this 2021 conference proceedings version.** | **Methodology (RSM/BBD template), Chapter 1/8 (natural additive framing)** |
 
 ## Yemen geology / context
 
@@ -51,8 +55,8 @@ Status legend: 🟢 fully verified (read in full, citation details confirmed) ·
 ## Papers still needed (gaps to fill in Phase 0 literature review)
 
 - [ ] Full verified citations for the Egyptian Gabal Hamdal and El-Fayoum studies (currently 🟡/🔴, found via search snippets only)
-- [ ] Magzoub KFUPM M.Sc. thesis — full PDF
-- [ ] Broader RSM-in-drilling-fluids literature beyond the 2 papers currently held
+- [ ] Magzoub KFUPM M.Sc. thesis — full PDF (distinct from the 2018 JERT journal paper now obtained)
+- [ ] Broader RSM-in-drilling-fluids literature beyond the 5 papers currently held (Alhajabdalla 2021, Maulani 2024, Ossai 2025, Satiyawira 2025, Asmungi 2021) — genre survey for Chapter 2 is now reasonably well stocked
 - [ ] General montmorillonite/smectite mineralogy and rheology textbook or review reference (for Chapter 2 background section) — e.g. Darley & Gray, or a clay mineralogy review
 - [ ] Sodium activation / cation exchange mechanism papers (general clay chemistry, not just applications)
 - [ ] General RSM/DOE statistics reference (non-drilling-specific, for methodological rigor citation)
@@ -60,6 +64,11 @@ Status legend: 🟢 fully verified (read in full, citation details confirmed) ·
 - [ ] Economic feasibility / import-substitution framing references (optional, supports Section 8)
 - [x] ~~API 13A specification~~ — obtained 2010 18th Ed.
 - [x] ~~API 13B-1 testing procedures~~ — obtained 6th Ed. ballot draft (verify final edition before defense)
+- [x] ~~Alhajabdalla 2021 RSM/fibrous dispersion~~ — fully verified 2026-07-12
+- [x] ~~Magzoub 2018 JERT Ca-bentonite thermochemical upgrading~~ — obtained and verified 2026-07-12 (new find, high relevance)
+- [x] ~~Ossai 2025 Box-Behnken drilling mud~~ — obtained and verified 2026-07-12 (new find)
+- [x] ~~Satiyawira 2025 RSM/BBD multi-temperature drilling fluid optimization~~ — obtained and verified 2026-07-12 (new find)
+- [x] ~~Asmungi 2021 RSM/BBD bentonite-tannin-xanthan WBM~~ — obtained and verified 2026-07-12 (new find; possible 2023 KEM journal twin not yet checked)
 
 ## How to add a new paper (workflow)
 
