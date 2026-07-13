@@ -34,6 +34,33 @@
 
 ---
 
+### 2026-07-12 — Session 3
+- Located and confirmed exact citation for previously-vague Egyptian Gabal Hamdal source: Hassan, M.S.; Abdel-Khalek, N.A. (1998). "Beneficiation and applications of an Egyptian bentonite." *Applied Clay Science*, 13(2), 99–115. Renamed placeholder to Hassan_1998_EgyptGabalHamdalBentoniteBeneficiation.pdf (still 🟡 — citation confirmed, full PDF not yet obtained)
+- Confirmed Musaab Magzoub Elhag's KFUPM M.Sc. thesis (found and uploaded by user): "Development of Stable Bentonite for Drilling Fluid Formulations Using Local Sources," 2014, advisor Dr. Mohamed Mahmoud. Renamed to Magzoub_2014_SaudiKhulaysBentoniteThermoChemicalMScThesis.pdf, filed in 01_papers/local_clay_benchmarking/, upgraded 🔴→🟢
+- Discovered new candidate paper during search: Afolabi, R.O. et al. (2018), "Dataset on the beneficiation of a Nigerian bentonite clay mineral for drilling mud formulation," *Data in Brief* — uses a 2⁴ RSM design (bentonite/polymer/Na2CO3/ageing time) benchmarked to API 13-A. Flagged as high priority — closest RSM methodology analog to this thesis's own Box-Behnken design found so far. Added to references.md as 🟡, not yet obtained
+- Updated references.md: corrected Gabal Hamdal row, added Magzoub 2014 (verified), added Afolabi 2018 (new find), updated gaps list
+- Updated CHECKLIST_ROADMAP.md: checked off Magzoub and Gabal-Hamdal-citation tasks, added Afolabi to Phase 0/Phase 2 notes, added open question about reconciling Al-Homadhi 2007 vs. Magzoub 2014 outcomes on the same deposit
+- Provided full pre-Chapter-1 literature gap-closing search list (see below)
+
+**Next planned step:** Close remaining 🟡/🔴 gaps (Manoufali, Afolabi, Egyptian El-Fayoum, Lézine full texts) before finalizing Chapter 1; then move to Chapter 2 (Literature Review).
+
+---
+
+### 2026-07-12 — Session 4
+- Reviewed 2 uploaded PDFs, both previously flagged as citation-only (🟡):
+  - hassan1998.pdf — Hassan, M.S.; Abdel-Khalek, N.A. (1998), "Beneficiation and applications of an Egyptian bentonite," *Applied Clay Science* 13(2):99–115. Full text confirms Gabal Hamdal/Abu-Zeneima Egyptian counter-example: low CEC (40–43 meq/100g), poor Na-exchange as ROM, but strong response to beneficiation + Na2CO3 activation (swelling index 20–25→>100; bleaching 20%→>90%). Cost data: US$21–30/t vs. US$150–400/t imported. Renamed to Hassan_1998_EgyptGabalHamdalBentoniteBeneficiation.pdf, upgraded 🟡→🟢. Important note: confirmed this is NOT the source of the previously-noted "NaOH+POLYPAC-R, El-Fayoum/Kom-Oshim" detail — that remains a separate unconfirmed paper, but Hassan & Abdel-Khalek's own bibliography gives three solid new leads (Ibrahim 1988 PhD thesis; Ibrahim/Felix/Ismail 1994; Inglethorpe et al. 1993)
+  - afolabi2018.pdf — Afolabi, R.O. et al. (2018), *Data in Brief*, DOI 10.1016/j.dib.2018.07.071. Full text confirms this uses a 4-factor **Central Composite Design** (not Box-Behnken as previously assumed) — noted this distinction for methodological accuracy. Extracted design details (factor ranges, YP/PV response, Minitab 17). Renamed to Afolabi_2018_NigeriaBentoniteRSM_DataInBrief.pdf, upgraded 🟡→🟢
+- Surfaced 3 new candidate references from Afolabi 2018's own bibliography:
+  - Afolabi, Orodu & Efevobkhan 2017, *Applied Clay Science* 143:39–49 (Nigeria bentonite review) — flagged HIGH priority
+  - Agwu, Okon & Udoh 2015, SPE Nigeria Conference (Nigeria bentonite review)
+  - Falode, Ehinola & Nebeife 2008, *Applied Clay Science* 39:19–27 (direct Nigeria comparator)
+- Updated references.md: verified/upgraded both papers, added 3 new candidate rows, refined gaps list, removed superseded placeholder rows
+- Updated CHECKLIST_ROADMAP.md: checked off Gabal Hamdal verification, added dosage-triangulation note (now 3 independent Na2CO3 precedents), added new open question about review-paper redundancy
+
+**Next planned step:** Obtain Afolabi/Orodu/Efevobkhan 2017 (highest-value remaining gap) and Manoufali 2016, then begin Chapter 2 (Literature Review) drafting — literature base is now substantially complete for Chapter 1.
+
+---
+
 ### Template for future entries
 
 ```
