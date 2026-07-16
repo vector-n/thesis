@@ -61,6 +61,23 @@
 
 ---
 
+### 2026-07-16 — Session 5
+- Continuation of Session 2, same day. Focus shifted from filling specific citation gaps to reconciling `references.md` against the actual current contents of `01_papers/` on GitHub.
+- User provided the full, current file listing of `01_papers/` directly (actual PDF filenames held, not just search-derived titles). This revealed the literature base is substantially larger than what `references.md` had been tracking: 22 papers total, including many not previously logged.
+- Important limitation surfaced and clarified with the user: AI assistance can search for and verify citation metadata (author/journal/year/DOI/abstract) for a given filename, but cannot read the actual PDF content of files sitting in the user's GitHub repo, nor browse the repo's folder structure directly. All verification below is citation-level (matching filename → real published paper), not content-level.
+- Searched for and confirmed full citation details for every previously-untracked paper across all four categories:
+  - **local_clay_benchmarking (new):** Afolabi 2017 (Nigerian bentonite review, *Applied Clay Science* 143), Agwu 2015 (Nigerian bentonitic clays review, SPE-178264-MS), Falode 2008 (Pindiga Formation, *Applied Clay Science* 39), Manoufali 2016 (Sudan / Ed-Damazin, Sudan University of Science & Technology), Magzoub 2018 (JERT journal follow-up to the KFUPM thesis, same research group)
+  - **methodology_RSM (new):** Asmungi 2023 (bentonite/tannin/xanthan WBM, *Key Engineering Materials* 939 — note: actual pub. year is 2023, not 2021 as filename suggests), Ossai 2025 (*Journal of Energy Technology and Environment*), Satiyawira 2025 (*Scientific Contributions Oil and Gas*), Afolabi 2018 (Data in Brief, RSM dataset paper), Derringer & Suich 1980 (*Journal of Quality Technology* — the foundational desirability-function paper underlying Minitab's Response Optimizer)
+  - **na_activation_mechanism (new category):** Bahranowski 2021 (*Materials* 14(24), rehydration-driven Na-activation kinetics), Karaguzel 2010 (*Applied Clay Science* 48, soda + MgO activation for drilling mud — widely cited alongside Khan 2017 and Al-Homadhi 2007)
+  - **yemen_geology_context (new):** Belder 1998 (Al-Irrah soils, FAO-affiliated), Lezine 1998 (Holocene lakes/paleoclimate)
+- Fully rebuilt `references.md` from scratch: every paper in the user's actual `01_papers/` listing now has a row, correct full citation, and is marked 🟢 (PDF held) rather than the previous 🟡/🔴 status many were carrying.
+- Flagged several open items for the user to resolve, rather than assuming: (1) the Myers/Montgomery/Anderson-Cook RSM textbook and Caenn/Darley/Gray drilling fluids textbook identified in Session 2 do not appear in the current `01_papers/` listing — unclear if held elsewhere or still needed; (2) Nlemedin/Nlemedim 2023 (Ikwo clay) was tracked previously but is absent from the current listing — status unclear; (3) `methodology_RSM/README.md` exists but its contents haven't been reviewed; (4) minor filename/year inconsistency on the Asmungi paper.
+- Updated `CHECKLIST_ROADMAP.md` to reflect the much stronger literature position — Phase 0 literature review is now well-resourced, and Chapters 2 and 3 both have substantially more precedent material to draw on than previously recorded.
+
+**Next planned step:** Chapter 2 (Literature Review) — literature base is now strong and well-organized. Suggested order: (1) resolve the open items above (textbook holdings, Nlemedin status, README review) so `references.md` is fully clean; (2) read through the Magzoub 2014/2015 thesis + 2018 journal paper together as the primary structural template for Chapter 3; (3) integrate the expanded Nigeria/Saudi/Sudan/Egypt comparator set into Chapter 1 Section 1.3; (4) begin drafting Chapter 2 background sections using the RSM/BBD papers and the two Na-activation mechanism papers.
+
+---
+
 ### Template for future entries
 
 ```
